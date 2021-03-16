@@ -36,6 +36,11 @@ print("0 != 1", 0 != 1)
 print("0 != 0", 0 != 0)
 print()
 
+print("Logical Operations")
+print("Python logic uses numbers to represent booleans, '1' for 'true' and '0' for 'false'; any number not equal to 0 "
+      "will be treated as 'true'.")
+print("Best practice is to always use '1' for 'true' and '0' for 'false'.")
+
 # Logical And examples
 print("Logical And")
 print("0 and 0", 0 and 0)
