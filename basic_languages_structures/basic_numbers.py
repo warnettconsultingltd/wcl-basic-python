@@ -1,34 +1,41 @@
 print("NUMERIC ADDITION OPERATIONS")
 firstNumber = 8
 secondNumber = 53
-print("Basic addition", firstNumber, "+", secondNumber, "=", firstNumber+secondNumber)
+result = firstNumber+secondNumber
+print("Basic addition", firstNumber, "+", secondNumber, "=", result)
 print()
 
 print("NUMERIC SUBTRACTION OPERATIONS")
 firstNumber = 34
 secondNumber = 12
-print("Basic subtraction", firstNumber, "-", secondNumber, "=", firstNumber-secondNumber)
+result = firstNumber-secondNumber
+print("Basic subtraction", firstNumber, "-", secondNumber, "=", result)
 firstNumber = 13
 secondNumber = 15
-print("Basic subtraction with negative result", firstNumber, "-", secondNumber, "=", firstNumber-secondNumber)
+result = firstNumber-secondNumber
+print("Basic subtraction with negative result", firstNumber, "-", secondNumber, "=", result)
 print()
 
 print("NUMERIC MULTIPLICATION OPERATIONS")
 firstNumber = 7
 secondNumber = 8
-print("Basic multiplication result", firstNumber, "*", secondNumber, "=", firstNumber*secondNumber)
+result = firstNumber*secondNumber
+print("Basic multiplication result", firstNumber, "*", secondNumber, "=", result)
 print()
 
 print("NUMERIC DIVISION OPERATIONS")
 firstNumber = 84
 secondNumber = 5
-print("Basic division result", firstNumber, "/", secondNumber, "=", firstNumber/secondNumber)
+result = firstNumber/secondNumber
+print("Basic division result", firstNumber, "/", secondNumber, "=", result)
 firstNumber = 67
 secondNumber = 12
-print("Decimal division result", firstNumber, "/", secondNumber, "=", firstNumber//secondNumber)
+result = firstNumber//secondNumber
+print("Decimal division result", firstNumber, "/", secondNumber, "=", result)
 firstNumber = 41
 secondNumber = 4
-print("Remainder from division", firstNumber, "%", secondNumber, "=", firstNumber%secondNumber)
+result = firstNumber%secondNumber
+print("Remainder from division", firstNumber, "%", secondNumber, "=", result)
 print()
 
 print("EXPONENTS")
