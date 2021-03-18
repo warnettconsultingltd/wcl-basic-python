@@ -18,3 +18,4 @@ Examples are described below, under the directory they are stored in.
 |basic_input.py|Sample code to input a username and display a Hello message using the input name.|
 |basic_logical_expressions.py|Sample code showing logical expressions and operators.|
 |basic_numbers.py|Sample  code showing basic numeric operations.|
+|list_data_type.py|Sample code showing the list data type.|
