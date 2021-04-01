@@ -6,6 +6,8 @@ before_install:
   - pip install -U pip
   - pip install -U pytest
   - pip install codecov
-script: pytest
+script: 
+  cd /home/travis/build/warnettconsultingltd/wcl-basic-python/web-server-examples/hello_world
+  pytest
 after_success:
   - codecov
