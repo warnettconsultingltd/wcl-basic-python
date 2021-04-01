@@ -10,6 +10,8 @@ before_install:
 script:
   - python web_server_examples/hello_world/server_hello_world.py & APP_PID=$!
   - coverage run tests/web_server_examples/hello_world/*.*
+  - echo "Process id"
+  - echo $APP_ID
   - kill $APP_ID
 after_success:
   - codecov
