@@ -8,8 +8,8 @@ before_install:
   - pip install BeautifulSoup4
   - pip install codecov
 script:
-  python web_server_examples/hello_world/server_hello_world.py & APP_PID=$!
-  coverage run tests/web_server_examples/hello_world/*.*
-  kill -9 $APP_ID
+  - python web_server_examples/hello_world/server_hello_world.py & APP_PID=$!
+  - coverage run tests/web_server_examples/hello_world/*.*
+  - kill -9 $APP_ID
 after_success:
   - codecov
