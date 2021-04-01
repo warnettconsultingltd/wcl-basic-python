@@ -7,7 +7,9 @@ before_install:
   - pip install -U pytest
   - pip install BeautifulSoup4
   - pip install codecov
-script: 
-  coverage run tests/*.*
+script:
+  python web_server_examples/hello_world/server_hello_world.py & APP_PID=$!
+  coverage run tests/web_server_examples/hello_world/*.*
+  kill -9 $APP_ID
 after_success:
   - codecov

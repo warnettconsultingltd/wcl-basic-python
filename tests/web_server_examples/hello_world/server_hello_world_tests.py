@@ -10,7 +10,7 @@ class ServerHelloWorldTests(unittest.TestCase):
     # CHeck that 200 status code is returned for a GET request
     def test_server_response_status_code_is_ok_for_GET_request(self):
         response = requests.get("http://localhost:8080")
-        self.assertEqual(200,response.status_code)
+        self.assertEqual(200, response.status_code)
 
     def test_title_should_be_correctly_populated_for_GET_request(self):
         response = requests.get("http://localhost:8080")
